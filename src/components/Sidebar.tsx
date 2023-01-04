@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Header from './Header'
 
-const Sidebar = () => {
+const Sidebar = () : JSX.Element => {
   return (
     <Container><Header/></Container>
   )
